@@ -1,0 +1,170 @@
+body {
+  margin: auto;
+  max-width: 960px;
+}
+p {
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+img {
+  width: 100%;
+}
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 885px;
+  background-color: #4682B4;
+  position: absolute;
+}
+ul.sidenav li a {
+  display: block;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family:"Times New Roman", Times, serif;
+  font-weight: bold;
+}
+ul.sidenav li a:hover {
+  background-color:#CD853F;
+}
+
+.home-content {
+  position: relative;
+  margin-left: 35%;
+  padding-right: 15px;
+}
+
+input[type=text], [type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+p a:link {
+  color: blue;
+}
+
+p a:visited {
+  color: purple;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=email]:focus {
+  background-color: lightblue;
+}
+#submit-btn {
+  width: 100%;
+  background-color:#4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submit-btn:hover {
+  background-color: #45a049;
+}
+fieldset {
+  border-radius: 6px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: none;
+}
+footer.center {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #C0C0C0;
+}
+#resume-background {
+
+  background-image:url("background-pattern.jpg");
+}
+
+#other-background  {
+  background-image:url("backgrounds-city.jpg");
+}
+#contact-info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+#contact-info p {
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid black;
+}
+
+#resume-title {
+  margin-top: 100px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+th {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+}
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+.orange {
+  background-color: orange;
+}
+
+@media screen and (max-width: 600px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        font-size: 1.2em;
+        text-align: center;
+        padding: 5px;
+    }
+
+    body {
+      padding: 0 15px;
+    }
+
+    h1 {
+      font-size: 1.3em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+    p {
+      font-size: 14px;
+    }
+
+    main.home-content {
+      margin-left: 0;
+      text-align: center;
+    }
+}
